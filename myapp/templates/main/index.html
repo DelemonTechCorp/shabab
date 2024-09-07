@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+{% load static%}
+<!--
+
+-->
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+  <title>shabab</title>
+</head>
+<style>
+
+  @media (max-width: 576px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  @media (max-width: 576px) {
+  .fh5co-two-img {
+    display: none;
+  }
+}
+}
+</style>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"style="opacity: 60%;position: relative;">
+    <div class="container">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- Uncomment the following lines as needed -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#activity">Activity</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#testimonial">Testimonial</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="blog.html">Services</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <style>  @media (max-width: 767px) {
+    .fh5co-home-banner {
+      display: none;
+    }
+  }
+
+  .center-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .box{
+    margin-top: 15px;
+    background: #ffffffc4;
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+  }
+  .boxess{
+    margin-top: 15px;
+    background: #ffffffc4;
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+  }
+  .boxess img{
+    width: 50px;
+  }
+  .box img{
+    width: 70px;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: row;
+
+    margin: 8px;
+  }
+</style>
+
+<div class="container-fluid fh5co-home-banner">
+  <div class="card">
+    <img class="card-img" src="{% static 'assets/img/dsk.jpg' %}" alt="">
+    <div class="card-img-overlay">
+      <div class="center-text">
+        <h2 class="card-title">Shabab Thottathil</h2>
+        <span style="display:flex; flex-direction: column; color: aliceblue; padding-top: 15px;">Business Growth Consultant</span>
+        <a href="https://drive.google.com/file/d/1_qHiEjt0XTJNaaA8BUkKmqZBfSm4srjf/view?usp=sharing" class="btn">
+          <svg width="201" height="51" viewBox="0 0 201 51">
+            <defs>
+              <style>
+
+
+                .cls-1 {
+                  fill: none;
+                  stroke-width: 1px;
+                  stroke: url(#linear-gradient);
+                }
+              </style>
+              <linearGradient id="linear-gradient" x1="140.508" y1="50.5" x2="60.492" y2="0.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#007BFF"/>
+                <stop offset="1" stop-color="#fff"/>
+              </linearGradient>
+            </defs>
+            <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="0.5" y="0.5" width="200" height="50" rx="25" ry="25"/>
+          </svg>
+          VIEW PROFILE
+        </a>
+        <span style="display:flex; flex-direction: column; color: aliceblue; padding-top: 55px;">Associate Partner</span>
+      <div class="boxes">
+        <div class="box" style="margin-right:15px">
+          <div class="img">
+              <a href="https://www.delemontechnology.com" target="_blank">
+                  <img src="{% static 'assets/img/d.png' %}" alt="Image description">
+              </a>
+          </div>
+      </div>
+      <div class="boxess">
+        <div class="img">
+          <a href="https://www.youngandright.ae" target="_blank">
+            <img src="{% static 'assets/img/y.png' %}" alt="Image description">
+          </a>
+        </div>
+    </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container-fluid fh5co-two-img">
+    <div class="row">
+      <!-- <div class="col-sm-6 pr-0 pl-0">
+        <div class="card">
+          <img class="card-img hide-on-mobile " src="assets/img/pic1.jpg" alt="">
+          <div class="card-img-overlay"> </div>
+        </div>
+      </div> -->
+      <div  class="col-sm-12 pr-0 pl-0">
+        <div class="card">
+          <img style="width: 80%;" class="card-img hide-on-mobile" src="{% static 'assets/img/pic2.jpg' %}" alt="">
+          <div class="card-img-overlay"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid fh5co-recent-work">
+    <style>
+      @media (max-width: 767px) {
+        .contact-pop .btn-view-profile {
+          display: inline-block;
+          margin-left: 10px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .contact-pop .btn-view-profile {
+          display: none;
+        }
+      }
+    </style>
+
+    <div class="container contact-pop">
+      <div class="row">
+        <div class="col-md-6 pr-0">
+          <div class="card">
+            <img class="card-img w-100" src="{% static 'assets/img/pic3.jpg' %}" alt="">
+            <div class="card-img-overlay"></div>
+          </div>
+        </div>
+        <div class="col-md-6 pl-0" id="about">
+          <div class="content">
+            <h3>I am Shabab Thottathil</h3>
+            <h4>Business Growth Consultant</h4>
+            <hr />
+            <p>Experienced Business Growth Consultant with over 16 years of international expertise in Finance
+              and Administration Management, specializing in driving strategic initiatives and enhancing
+              operational efficiency. Based in Dubai for more than 12 years, I bring a deep understanding of the
+              local market dynamics and a proven track record of delivering impactful solutions for business
+              expansion and development.</p>
+            <a href="https://wa.me/971563658206?text=Hi%20Shabab%20Thottathil,%20I%20would%20like%20to%20know%20more%20about%20your%20business%20consulting%20services." class="btn">CONTACT</a>
+            <a href="https://drive.google.com/file/d/1xl6GCj-9d3f_S9NA_SN1hkS_tLqThTtv/view?usp=sharing" class="btn btn-view-profile">VIEW PROFILE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="container recent" id="activity">
+        <h2>SERVICES</h2>
+
+        <div class="row">
+          <div class="owl-carousel owl-carousel2 owl-theme">
+            <div>
+              <a href="/bd" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img1.jpg' %}" alt="Business Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Business Strategy Development</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/fa" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img2.jpg' %}" alt="Financial Advisory Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Financial Advisory</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/mb" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img3.jpg' %}" alt="Marketing and Branding Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Marketing and Branding</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/sc" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img4.jpg' %}" alt="Startup Consulting Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Startup Consulting</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/lead" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img5.jpg' %}" alt="Startup Consulting Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Lead Generation</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div>
+              <a href="/ui" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img7.jpg' %}" alt="Marketing and Branding Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">UI/UX Designing</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/web" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img8.jpg' %}" alt="Marketing and Branding Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Website Development</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/dig" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img9.jpg' %}" alt="Marketing and Branding Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Digital Marketing</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/book" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img10.jpg' %}" alt="Marketing and Branding Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Bookkeeping</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/inter" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img11.jpg' %}" alt="Marketing and Branding Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Internal auditing</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/aml" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img12.jpg' %}" alt="Marketing and Branding Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">AML Compliance</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="/tax" class="card-link">
+                <div class="card">
+                  <img class="card-img" src="{% static 'assets/img/img13.jpg' %}" alt="Marketing and Branding Image">
+                  <div class="card-img-overlay">
+                    <img src="{% static 'assets/img/heart.png' %}" class="heart" alt="heart icon">
+                    <div class="bottom-text">
+                      <h5 class="card-title">Corporate tax registration</h5>
+                      <p class="card-text">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container-fluid recent fh5co-portfolio" id="portfolio">
+    <div class="container">
+      <h2>Portfolios</h2>
+      <div class="row">
+        <div class="bx bx-1">
+          <div class="card"> <img class="card-img" src="assets/img/portfolio-img1.png" alt="">
+            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+              <div class="bottom-text">
+                <h5 class="card-title">Natural site</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx bx-2">
+          <div class="card"> <img class="card-img" src="assets/img/portfolio-img2.png" alt="">
+            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+              <div class="bottom-text">
+                <h5 class="card-title">Vacation special photography</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx bx-3">
+          <div class="card"> <img class="card-img" src="assets/img/portfolio-img3.png" alt="">
+            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+              <div class="bottom-text">
+                <h5 class="card-title">Product photography</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx bx-4">
+          <div class="card"> <img class="card-img" src="assets/img/portfolio-img4.png" alt="">
+            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+              <div class="bottom-text">
+                <h5 class="card-title">Historical place shots</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx bx-middle" style="padding: 0;">
+          <div class="bx bx-5">
+            <div class="card"> <img class="card-img" src="assets/img/portfolio-img5.png" alt="">
+              <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                <div class="bottom-text">
+                  <h5 class="card-title">Lorem ipsum dolor</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bx bx-6">
+            <div class="card"> <img class="card-img" src="assets/img/portfolio-img6.png" alt="">
+              <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                <div class="bottom-text">
+                  <h5 class="card-title">Lorem ipsum dolor</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="bx bx-7">
+              <div class="card"> <img class="card-img" src="assets/img/portfolio-img7.png" alt="">
+                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                  <div class="bottom-text">
+                    <h5 class="card-title">Portraits</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bx bx-8">
+              <div class="card"> <img class="card-img" src="assets/img/portfolio-img8.png" alt="">
+                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
+                  <div class="bottom-text">
+                    <h5 class="card-title">Wedding photography</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- <div class="container-fluid fh5co-recent-work activity">
+    <div class="container recent">
+      <div class="row">
+        <h2>Activity of the month</h2>
+        <div class="owl-carousel owl-carousel3 owl-theme">
+          <div>
+            <div class="card"> <img class="card-img" src="assets/img/activity-img1.png" alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
+                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card"> <img class="card-img" src="assets/img/activity-img2.png"  alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
+                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card"> <img class="card-img" src="assets/img/activity-img3.png" alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
+                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="container-fluid fh5co-about-me" id="testimonial">
+    <div id="my-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="card"> <img class="card-img d-block w-100" src="{% static 'assets/img/about-me-img.jpg' %}" alt="">
+          <div class="card-img-overlay">
+            <h2>People says about me</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-md-block"> <img src="{% static 'assets/img/quote-icon.png' %}" alt="">
+            <p>Working with Shabab has been a game-changer for our business. Their strategic insights and practical advice have significantly improved our operations and profitability. Highly recommend!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="carousel-caption d-md-block"> <img src="{% static 'assets/img/quote-icon.png' %}" alt="">
+            <p>his expertise in financial planning and market analysis has helped us navigate challenging economic times with confidence. Their dedication and personalized approach are truly commendable.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-md-block"> <img src="{% static 'assets/img/quote-icon.png' %}" alt="">
+            <p>Our marketing efforts have seen a remarkable transformation thanks to the innovative strategies proposed by shabab. Their deep understanding of digital marketing and branding has driven exceptional results.</p>
+          </div>
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#my-carousel" data-slide-to="0" > <img src="{% static 'assets/img/img1.png' %}" alt=""> <span>Sishaj</span> </li>
+        <li class="active" data-target="#my-carousel" data-slide-to="1" aria-current="location"> <img src="{% static 'assets/img/img2.png' %}" alt=""> <span>liya</span> </li>
+        <li data-target="#my-carousel" data-slide-to="2"> <img src="{% static 'assets/img/img3.png' %}" alt=""> <span>Aiysha</span> </li>
+      </ol>
+    </div>
+  </div>
+  <div class="container-fluid fh5co-insta-feed activity">
+    <div class="container recent">
+      <div class="row mb-5 pb-5">
+        <div class="col-lg-6">
+          <div class="twit-box">
+            <div class="media mb-3"> <img class="align-self-start mr-3 rounded-circle" src="{% static 'assets/img/dp.jpg' %}" alt="">
+              <div class="media-body">
+                <h5 class="mb-0 mt-3">Shabab tottathil</h5>
+                <p>Business Consultant</p>
+              </div>
+            </div>
+            <p class="text-justify">With over a decade of experience, I help businesses unlock their full potential through tailored strategies and expert guidance. Follow me on Instagram @shabab_tottathil for insights and updates on business growth and success! </p>
+            <div class="clearfix"> <a href="https://www.instagram.com/shabab_tottathil?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-primary mt-2 float-right">Follow</a> </div>
+          </div>
+        </div>
+        <div class="col-lg-6 feed-caro">
+          <h2>Instagram feed</h2>
+          <div class="owl-carousel owl-carousel4 owl-theme">
+            <div>
+              <div class="card">
+                <img class="card-img" src="{% static 'assets/img/11.jpg' %}" alt="">
+                <div class="card-img-overlay"></div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <img class="card-img" src="{% static 'assets/img/2.jpg' %}" alt="">
+                <div class="card-img-overlay"></div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <img class="card-img" src="{% static 'assets/img/3.jpg' %}" alt="">
+                <div class="card-img-overlay"></div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <img class="card-img" src="{% static 'assets/img/4.jpg' %}" alt="">
+                <div class="card-img-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center d-block">Find me on social media</h2>
+      <div class="row social-links">
+        <ul class="nav mx-auto">
+          <li class="nav-item"> <a class="nav-link" href=""><img src="{% static 'assets/img/facebook.png' %}" alt=""></a> </li>
+          <li class="nav-item"> <a class="nav-link" href=""><img src="{% static 'assets/img/twitter.png' %}" alt=""></a> </li>
+          <!-- <li class="nav-item"> <a class="nav-link" href="#"><img src="assets/img/pinterest.png" alt=""></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#"><img src="assets/img/google-plus.png" alt=""></a> </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid p-0 pr-0">
+    <div class="row mr-0 ml-0">
+        <div class="col-md-6 pr-0 pl-0 map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462563.03282584815!2d54.897815637520246!3d25.075658366641427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1722663948774!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-6 content-us">
+            <div class="contact-form" id="contact">
+                <h3 class="text-uppercase">Contact me</h3>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8f89f3bd-9d9b-467f-867c-c2400f31aff6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+                    <button style="color: #75b1f9; background: #75b1f9; background-color: #ffffff;" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy pt-4 pb-4">
+        <p><a href="" target="_blank"> &copy; shabab</a>  &nbsp;  |  &nbsp; Design by <a href="https://www.delemontechnology.com" target="_blank">delemon technology</a> &nbsp; | &nbsp;  All rights reserved</p>
+    </div>
+</footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="{% static 'assets/js/jquery-3.3.1.slim.min.js' %}"></script>
+  <script src="{% static 'assets/js/popper.min.js' %}" ></script>
+  <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+</html>

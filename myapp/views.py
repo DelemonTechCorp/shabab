@@ -1,0 +1,32 @@
+from .models import *
+from django.shortcuts import render, redirect
+def index(request):
+    return render(request,'main/index.html')
+def aml(request):
+    return render(request,'main/aml.html')
+def bd(request):
+    return render(request,'main/bd.html')
+def index(request):
+    return render(request,'main/index.html')
+def blog(request):
+    return render(request,'main/blog.html')
+def book(request):
+    return render(request,'main/book.html')
+def dig(request):
+    return render(request,'main/dig.html')
+def fa(request):
+    return render(request,'main/fa.html')
+def inter(request):
+    return render(request,'main/inter.html')
+def lead(request):
+    return render(request,'main/lead.html')
+def mb(request):
+    return render(request,'main/mb.html')
+def sc(request):
+    return render(request,'main/sc.html')
+def tax(request):
+    return render(request,'main/tax.html')
+def ui(request):
+    return render(request,'main/ui.html')
+def web(request):
+    return render(request,'main/web.html')
